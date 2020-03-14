@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "env\\Scripts\\python.exe",
+    "team.showWelcomeMessage": false,
+    "editor.formatOnSave": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.venvPath": "${workspaceFolder}/backend/env/bin/python38",
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501"
+    ],
+    "python.linting.enabled": true
+}
